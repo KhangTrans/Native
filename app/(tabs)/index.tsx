@@ -95,4 +95,15 @@ const styles = StyleSheet.create({
     left: 0,
     position: 'absolute',
   },
+  logoutButton: {
+    marginTop: 16,
+    backgroundColor: '#ff4444',
+    padding: 12,
+    borderRadius: 8,
+    alignItems: 'center',
+  },
+  logoutText: {
+    color: '#fff',
+    fontWeight: 'bold',
+  },
 });
