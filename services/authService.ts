@@ -1,7 +1,8 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { API_CONFIG } from '@/config/api';
 import { LoginResponse, RegisterResponse, User } from '@/types/auth';
 
-const API_BASE_URL = 'https://backend-node-lilac-seven.vercel.app/api';
+const API_BASE_URL = `${API_CONFIG.REST_URL}/api`;
 
 class AuthService {
   // Login

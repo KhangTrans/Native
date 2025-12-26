@@ -1,18 +1,18 @@
 import React from 'react';
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
 
-export default function ExploreScreen() {
+export default function LiveScreen() {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.headerTitle}>Shopee Mall</Text>
+        <Text style={styles.headerTitle}>Live & Video</Text>
       </View>
       <ScrollView style={styles.content}>
         <View style={styles.emptyContainer}>
-          <Text style={styles.emptyIcon}>🏬</Text>
-          <Text style={styles.emptyTitle}>Shopee Mall</Text>
+          <Text style={styles.emptyIcon}>📹</Text>
+          <Text style={styles.emptyTitle}>Shopee Live & Video</Text>
           <Text style={styles.emptyText}>
-            Khám phá các thương hiệu chính hãng và ưu đãi độc quyền
+            Xem các video và livestream thú vị từ người bán và KOL yêu thích
           </Text>
         </View>
       </ScrollView>
